@@ -1,13 +1,13 @@
 body
 {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1
 {
     width: 90%;
     margin: auto;
-    padding: 50px 0;
+    padding: 50px 0 30px;
     letter-spacing: 2px;
     font-weight: 700;
     text-transform: capitalize;
@@ -25,13 +25,14 @@ h1
 {
     width: 100%;
     background-color: white;
-    align-content: center;
     border-radius: 10px;
-    box-shadow: 1px 2px 6px 2px rgb(219, 219, 219);
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 2px 0px;
 }
 #box:hover
 {
-    box-shadow: 1px 6px 3px 0 rgb(185, 185, 185);
+     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    cursor: pointer;
+}
 }
 #containerClothing img
 {
